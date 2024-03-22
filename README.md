@@ -1,4 +1,4 @@
-D2IM_Prototype
+D2IM Prototype
 ==============================
 
 A proof of concept Deep Learning model to predict displacements from greyscale XCT scans of mechanical experiments.
