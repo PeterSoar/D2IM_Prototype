@@ -3,16 +3,17 @@ D2IM Prototype
 
 A proof of concept Deep Learning model to predict displacements from greyscale XCT scans of mechanical experiments.
 
-More information about the project can be found at the following preprint - please cite this paper if using and of the code or data in your own projects: 
+More details can be found in the following paper - please cite this paper if using the code or data in your own projects:
 
-Soar, P. and Tozzi, G., 2023. Data-driven image mechanics (D2IM): a deep learning approach to predict displacement and strain fields from undeformed X-ray tomography images-Evaluation of bone mechanics. bioRxiv, pp.2023-09. https://doi.org/10.1101/2023.09.21.558878
+"Data-driven image mechanics (D2IM): a deep learning approach to predict displacement and strain fields from undeformed X-ray tomography images - Evaluation of bone mechanics"
 
-The dataset used comprises slices of porcine vertebra. The original 3D scans of the images can be found at:
-Dall'Ara, Enrico; Palanca, Marco (2021). Data for paper "MicroFE models of porcine vertebrae with induced bone focal lesions: validation of predicted displacements with Digital Volume Correlation". The University of Sheffield. Dataset. https://doi.org/10.15131/shef.data.16732441
+by Peter Soar, Marco Palanca, Enrico Dall'Ara and Gianluca Tozzi submitted to publication in Extreme Mechanical Letters, 2024. Currently available as a preprint at: https://www.biorxiv.org/content/10.1101/2023.09.21.558878v1.abstract
 
 Mask input was generated from these scan slices. Target displacements (u,v,w) were obtained using the DIC/DVC software SPAM (https://www.spam-project.dev/).
 'Clinical' folder contains a few examples used for testing the sensitivity of the D2IM model to lower resolution input. The clinical scans these slices were extracted from were collected at the CT Scan Department, Northern General Hospital, Sheffield.
 
+An interactive version of D2IM can be found hosted on Kaggle at: https://www.kaggle.com/code/petersoar/d2im-prototype
+The data is also hosted on Figshare at: https://doi.org/10.6084/m9.figshare.25404220.v1
 
 Project Organization
 ------------
